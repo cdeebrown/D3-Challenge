@@ -1,0 +1,51 @@
+body { 
+  background-color:lightslategray;
+  margin-left: 10;
+  margin-right: 10;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 500% ;
+}
+
+h2 {
+  text-align: center;
+  font-size: 250%;
+}
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+
+.chart {
+  width: 50mm;
+  padding: 0;
+  margin-top: 0;
+}
+
+.text {
+  font-size: 16px;
+  text-anchor: middle;
+}
+
+.age-text {
+  fill: blue;
+}
+
+.dow-text {
+  fill: green;
+}
+
+footer {
+  padding-top: 20mm;
+  text-align: center;
+}
+

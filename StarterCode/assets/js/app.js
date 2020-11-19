@@ -21,7 +21,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import Data
-d3.csv("/16-D3/Homework/Instructions/StarterCode/assets/js/data.csv").then(function(incData) {
+d3.csv("StarterCode/assets/js/data.csv").then(function(incData) {
 
     // Step 1: Parse Data/Cast as numbers
     // ==============================
@@ -99,4 +99,4 @@ var leftAxis = d3.axisLeft(yLinearScale);
     .classed("age-text text", true)
     .text("Age");
   });
- 
+      
